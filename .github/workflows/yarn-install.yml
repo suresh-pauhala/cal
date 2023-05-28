@@ -5,7 +5,7 @@ on:
 
 jobs:
   setup:
-    name: Yarn install & cache
+    name: Yarn install & cache & Yarn install -g node-gyp
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
